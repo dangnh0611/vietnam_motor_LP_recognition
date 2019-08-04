@@ -72,7 +72,7 @@ def characterSegmentation(gray_plate,visualize=False):
 
 def main():
 	parser = argparse.ArgumentParser(usage="Visualize license plate localization using Canny edge detection")
-	parser.add_argument("--folder", type=str, default='park', help="Visualize images in the specified folder.")
+	parser.add_argument("--folder", type=str, default='dataset', help="Visualize images in the specified folder.")
 	parser.add_argument("--path", type=str, default='', help="Visualize image with the specified path.")
 	args = parser.parse_args()
 
